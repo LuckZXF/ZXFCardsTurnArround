@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3274C2B1D0006B600ED6580 /* card1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3274C291D0006B600ED6580 /* card1.jpg */; };
+		D3274C2C1D0006B600ED6580 /* bgImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3274C2A1D0006B600ED6580 /* bgImage.jpg */; };
+		D3274C2E1D00126700ED6580 /* card2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3274C2D1D00126700ED6580 /* card2.jpg */; };
+		D3274C321D00246C00ED6580 /* card3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3274C2F1D00246C00ED6580 /* card3.jpg */; };
+		D3274C331D00246C00ED6580 /* card5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3274C301D00246C00ED6580 /* card5.jpg */; };
+		D3274C341D00246C00ED6580 /* card4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D3274C311D00246C00ED6580 /* card4.jpg */; };
+		D376FB531CFED41E00242E85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D376FB521CFED41E00242E85 /* AppDelegate.swift */; };
+		D376FB581CFED41E00242E85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D376FB561CFED41E00242E85 /* Main.storyboard */; };
+		D376FB5A1CFED41E00242E85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D376FB591CFED41E00242E85 /* Assets.xcassets */; };
+		D376FB5D1CFED41E00242E85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D376FB5B1CFED41E00242E85 /* LaunchScreen.storyboard */; };
+		D376FB681CFED41E00242E85 /* ZXFCardsTurnArroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D376FB671CFED41E00242E85 /* ZXFCardsTurnArroundTests.swift */; };
+		D376FB731CFED41E00242E85 /* ZXFCardsTurnArroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D376FB721CFED41E00242E85 /* ZXFCardsTurnArroundUITests.swift */; };
+		D376FB811CFED50D00242E85 /* ZXFCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D376FB801CFED50D00242E85 /* ZXFCardView.swift */; };
+		D376FB831CFED53A00242E85 /* ZXFCardsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D376FB821CFED53A00242E85 /* ZXFCardsVC.swift */; };
+		D376FB851CFED70900242E85 /* Globa.swift in Sources */ = {isa = PBXBuildFile; fileRef = D376FB841CFED70900242E85 /* Globa.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D376FB641CFED41E00242E85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D376FB471CFED41E00242E85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D376FB4E1CFED41E00242E85;
+			remoteInfo = ZXFCardsTurnArround;
+		};
+		D376FB6F1CFED41E00242E85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D376FB471CFED41E00242E85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D376FB4E1CFED41E00242E85;
+			remoteInfo = ZXFCardsTurnArround;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3274C291D0006B600ED6580 /* card1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card1.jpg; sourceTree = "<group>"; };
+		D3274C2A1D0006B600ED6580 /* bgImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bgImage.jpg; sourceTree = "<group>"; };
+		D3274C2D1D00126700ED6580 /* card2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card2.jpg; sourceTree = "<group>"; };
+		D3274C2F1D00246C00ED6580 /* card3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card3.jpg; sourceTree = "<group>"; };
+		D3274C301D00246C00ED6580 /* card5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card5.jpg; sourceTree = "<group>"; };
+		D3274C311D00246C00ED6580 /* card4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card4.jpg; sourceTree = "<group>"; };
+		D376FB4F1CFED41E00242E85 /* ZXFCardsTurnArround.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXFCardsTurnArround.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D376FB521CFED41E00242E85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D376FB571CFED41E00242E85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D376FB591CFED41E00242E85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D376FB5C1CFED41E00242E85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D376FB5E1CFED41E00242E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D376FB631CFED41E00242E85 /* ZXFCardsTurnArroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXFCardsTurnArroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D376FB671CFED41E00242E85 /* ZXFCardsTurnArroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXFCardsTurnArroundTests.swift; sourceTree = "<group>"; };
+		D376FB691CFED41E00242E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D376FB6E1CFED41E00242E85 /* ZXFCardsTurnArroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXFCardsTurnArroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D376FB721CFED41E00242E85 /* ZXFCardsTurnArroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXFCardsTurnArroundUITests.swift; sourceTree = "<group>"; };
+		D376FB741CFED41E00242E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D376FB801CFED50D00242E85 /* ZXFCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXFCardView.swift; sourceTree = "<group>"; };
+		D376FB821CFED53A00242E85 /* ZXFCardsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXFCardsVC.swift; sourceTree = "<group>"; };
+		D376FB841CFED70900242E85 /* Globa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globa.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D376FB4C1CFED41E00242E85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D376FB601CFED41E00242E85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D376FB6B1CFED41E00242E85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D376FB461CFED41E00242E85 = {
+			isa = PBXGroup;
+			children = (
+				D376FB511CFED41E00242E85 /* ZXFCardsTurnArround */,
+				D376FB661CFED41E00242E85 /* ZXFCardsTurnArroundTests */,
+				D376FB711CFED41E00242E85 /* ZXFCardsTurnArroundUITests */,
+				D376FB501CFED41E00242E85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D376FB501CFED41E00242E85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D376FB4F1CFED41E00242E85 /* ZXFCardsTurnArround.app */,
+				D376FB631CFED41E00242E85 /* ZXFCardsTurnArroundTests.xctest */,
+				D376FB6E1CFED41E00242E85 /* ZXFCardsTurnArroundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D376FB511CFED41E00242E85 /* ZXFCardsTurnArround */ = {
+			isa = PBXGroup;
+			children = (
+				D3274C2F1D00246C00ED6580 /* card3.jpg */,
+				D3274C301D00246C00ED6580 /* card5.jpg */,
+				D3274C311D00246C00ED6580 /* card4.jpg */,
+				D3274C2D1D00126700ED6580 /* card2.jpg */,
+				D3274C291D0006B600ED6580 /* card1.jpg */,
+				D3274C2A1D0006B600ED6580 /* bgImage.jpg */,
+				D376FB521CFED41E00242E85 /* AppDelegate.swift */,
+				D376FB821CFED53A00242E85 /* ZXFCardsVC.swift */,
+				D376FB801CFED50D00242E85 /* ZXFCardView.swift */,
+				D376FB841CFED70900242E85 /* Globa.swift */,
+				D376FB561CFED41E00242E85 /* Main.storyboard */,
+				D376FB591CFED41E00242E85 /* Assets.xcassets */,
+				D376FB5B1CFED41E00242E85 /* LaunchScreen.storyboard */,
+				D376FB5E1CFED41E00242E85 /* Info.plist */,
+			);
+			path = ZXFCardsTurnArround;
+			sourceTree = "<group>";
+		};
+		D376FB661CFED41E00242E85 /* ZXFCardsTurnArroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				D376FB671CFED41E00242E85 /* ZXFCardsTurnArroundTests.swift */,
+				D376FB691CFED41E00242E85 /* Info.plist */,
+			);
+			path = ZXFCardsTurnArroundTests;
+			sourceTree = "<group>";
+		};
+		D376FB711CFED41E00242E85 /* ZXFCardsTurnArroundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D376FB721CFED41E00242E85 /* ZXFCardsTurnArroundUITests.swift */,
+				D376FB741CFED41E00242E85 /* Info.plist */,
+			);
+			path = ZXFCardsTurnArroundUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D376FB4E1CFED41E00242E85 /* ZXFCardsTurnArround */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D376FB771CFED41E00242E85 /* Build configuration list for PBXNativeTarget "ZXFCardsTurnArround" */;
+			buildPhases = (
+				D376FB4B1CFED41E00242E85 /* Sources */,
+				D376FB4C1CFED41E00242E85 /* Frameworks */,
+				D376FB4D1CFED41E00242E85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZXFCardsTurnArround;
+			productName = ZXFCardsTurnArround;
+			productReference = D376FB4F1CFED41E00242E85 /* ZXFCardsTurnArround.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D376FB621CFED41E00242E85 /* ZXFCardsTurnArroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D376FB7A1CFED41E00242E85 /* Build configuration list for PBXNativeTarget "ZXFCardsTurnArroundTests" */;
+			buildPhases = (
+				D376FB5F1CFED41E00242E85 /* Sources */,
+				D376FB601CFED41E00242E85 /* Frameworks */,
+				D376FB611CFED41E00242E85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D376FB651CFED41E00242E85 /* PBXTargetDependency */,
+			);
+			name = ZXFCardsTurnArroundTests;
+			productName = ZXFCardsTurnArroundTests;
+			productReference = D376FB631CFED41E00242E85 /* ZXFCardsTurnArroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D376FB6D1CFED41E00242E85 /* ZXFCardsTurnArroundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D376FB7D1CFED41E00242E85 /* Build configuration list for PBXNativeTarget "ZXFCardsTurnArroundUITests" */;
+			buildPhases = (
+				D376FB6A1CFED41E00242E85 /* Sources */,
+				D376FB6B1CFED41E00242E85 /* Frameworks */,
+				D376FB6C1CFED41E00242E85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D376FB701CFED41E00242E85 /* PBXTargetDependency */,
+			);
+			name = ZXFCardsTurnArroundUITests;
+			productName = ZXFCardsTurnArroundUITests;
+			productReference = D376FB6E1CFED41E00242E85 /* ZXFCardsTurnArroundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D376FB471CFED41E00242E85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "赵希帆";
+				TargetAttributes = {
+					D376FB4E1CFED41E00242E85 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 5TCJXZ3Y6F;
+					};
+					D376FB621CFED41E00242E85 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D376FB4E1CFED41E00242E85;
+					};
+					D376FB6D1CFED41E00242E85 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D376FB4E1CFED41E00242E85;
+					};
+				};
+			};
+			buildConfigurationList = D376FB4A1CFED41E00242E85 /* Build configuration list for PBXProject "ZXFCardsTurnArround" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D376FB461CFED41E00242E85;
+			productRefGroup = D376FB501CFED41E00242E85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D376FB4E1CFED41E00242E85 /* ZXFCardsTurnArround */,
+				D376FB621CFED41E00242E85 /* ZXFCardsTurnArroundTests */,
+				D376FB6D1CFED41E00242E85 /* ZXFCardsTurnArroundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D376FB4D1CFED41E00242E85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3274C321D00246C00ED6580 /* card3.jpg in Resources */,
+				D376FB5D1CFED41E00242E85 /* LaunchScreen.storyboard in Resources */,
+				D376FB5A1CFED41E00242E85 /* Assets.xcassets in Resources */,
+				D376FB581CFED41E00242E85 /* Main.storyboard in Resources */,
+				D3274C2C1D0006B600ED6580 /* bgImage.jpg in Resources */,
+				D3274C2E1D00126700ED6580 /* card2.jpg in Resources */,
+				D3274C2B1D0006B600ED6580 /* card1.jpg in Resources */,
+				D3274C341D00246C00ED6580 /* card4.jpg in Resources */,
+				D3274C331D00246C00ED6580 /* card5.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D376FB611CFED41E00242E85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D376FB6C1CFED41E00242E85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D376FB4B1CFED41E00242E85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D376FB851CFED70900242E85 /* Globa.swift in Sources */,
+				D376FB831CFED53A00242E85 /* ZXFCardsVC.swift in Sources */,
+				D376FB811CFED50D00242E85 /* ZXFCardView.swift in Sources */,
+				D376FB531CFED41E00242E85 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D376FB5F1CFED41E00242E85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D376FB681CFED41E00242E85 /* ZXFCardsTurnArroundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D376FB6A1CFED41E00242E85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D376FB731CFED41E00242E85 /* ZXFCardsTurnArroundUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D376FB651CFED41E00242E85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D376FB4E1CFED41E00242E85 /* ZXFCardsTurnArround */;
+			targetProxy = D376FB641CFED41E00242E85 /* PBXContainerItemProxy */;
+		};
+		D376FB701CFED41E00242E85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D376FB4E1CFED41E00242E85 /* ZXFCardsTurnArround */;
+			targetProxy = D376FB6F1CFED41E00242E85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D376FB561CFED41E00242E85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D376FB571CFED41E00242E85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D376FB5B1CFED41E00242E85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D376FB5C1CFED41E00242E85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D376FB751CFED41E00242E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D376FB761CFED41E00242E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D376FB781CFED41E00242E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ZXFCardsTurnArround/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyx.ZXFCardsTurnArround;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D376FB791CFED41E00242E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ZXFCardsTurnArround/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyx.ZXFCardsTurnArround;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D376FB7B1CFED41E00242E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZXFCardsTurnArroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyx.ZXFCardsTurnArroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZXFCardsTurnArround.app/ZXFCardsTurnArround";
+			};
+			name = Debug;
+		};
+		D376FB7C1CFED41E00242E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZXFCardsTurnArroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyx.ZXFCardsTurnArroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZXFCardsTurnArround.app/ZXFCardsTurnArround";
+			};
+			name = Release;
+		};
+		D376FB7E1CFED41E00242E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZXFCardsTurnArroundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyx.ZXFCardsTurnArroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZXFCardsTurnArround;
+			};
+			name = Debug;
+		};
+		D376FB7F1CFED41E00242E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZXFCardsTurnArroundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyx.ZXFCardsTurnArroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZXFCardsTurnArround;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D376FB4A1CFED41E00242E85 /* Build configuration list for PBXProject "ZXFCardsTurnArround" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D376FB751CFED41E00242E85 /* Debug */,
+				D376FB761CFED41E00242E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D376FB771CFED41E00242E85 /* Build configuration list for PBXNativeTarget "ZXFCardsTurnArround" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D376FB781CFED41E00242E85 /* Debug */,
+				D376FB791CFED41E00242E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D376FB7A1CFED41E00242E85 /* Build configuration list for PBXNativeTarget "ZXFCardsTurnArroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D376FB7B1CFED41E00242E85 /* Debug */,
+				D376FB7C1CFED41E00242E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D376FB7D1CFED41E00242E85 /* Build configuration list for PBXNativeTarget "ZXFCardsTurnArroundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D376FB7E1CFED41E00242E85 /* Debug */,
+				D376FB7F1CFED41E00242E85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D376FB471CFED41E00242E85 /* Project object */;
+}
